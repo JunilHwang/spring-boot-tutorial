@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  me.junil.exampleautoconfiguration
+me.junil.exampleautoconfiguration.HoloConfiguration
