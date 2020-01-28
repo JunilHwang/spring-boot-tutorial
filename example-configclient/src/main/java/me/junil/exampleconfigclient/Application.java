@@ -15,12 +15,4 @@ public class Application {
 		application.run(args);
 	}
 
-  @Bean
-  public Holo holo () {
-    Holo holo = new Holo();
-    holo.setHowLong(50);
-    holo.setName("junil2");
-    return holo;
-  }
-
 }
