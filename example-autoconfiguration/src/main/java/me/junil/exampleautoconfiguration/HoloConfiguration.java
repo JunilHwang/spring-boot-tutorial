@@ -13,12 +13,15 @@
  */
 package me.junil.exampleautoconfiguration;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class HoloConfiguration {
+
   @Bean
+  @ConditionalOnMissingBean
   public Holo holo () {
     Holo holo = new Holo();
     holo.setHowLong(10);
